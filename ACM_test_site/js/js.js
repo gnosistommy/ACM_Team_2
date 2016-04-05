@@ -46,7 +46,7 @@
     function goToByScroll(dataslide) {
         htmlbody.animate({
             scrollTop: $('.slide[data-slide="' + dataslide + '"]').offset().top
-        }, 2000, 'easeInOutQuint');
+        }, 750, 'easeInOutExpo');// The number sets the speed of the transition, the lower the faster.
     }
  
  
