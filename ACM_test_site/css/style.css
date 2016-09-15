@@ -4,30 +4,127 @@
     width:100%;     
     height:100%;  
 }
+.learn_more:link, .learn_more:visited {
+    text-align: center;	
+    text-decoration: none;
+    display: inline-block;
+}
+a{
+	text-decoration:none;
+	color:#ffffff;
+}
 a:visited{
-color:black;
+color:#ffffff;
 text-decoration: underline;
 }
 
+h4{
+	font-size:xx-large;
+}
+.learn_more:hover, .learn_more:active {
+    background-color: #5b6fe0;
+    color: white;
+}
+.learn_more{
+	z-index:9999999;
+   position: absolute; 
+   border-top-left-radius:10px;
+   border-bottom-left-radius:10px;
+   right:0px; 
+   padding-left:4px;
+   bottom:65px;
+   font-size:large;
+   border: 3px #3d4a96 solid;
+   display:flex;
+   background:#ffffff;
+   border-right:none;
+      -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+
+    }
+#search_bar:link, #search_bar:visited {
+    text-align: center;	
+    text-decoration: none;
+    display: inline-block;
+}
+
+#search_bar{
+	z-index:9999999;
+   position: fixed; 
+   border-top-left-radius:10px;
+   border-bottom-left-radius:10px;
+   right:-271px; 
+   padding-left:4px;
+   bottom:42px;
+   min-width:92.05px;
+   width:362.05px;
+   font-size:large;
+   border: 3px #3d4a96 solid;
+   display:flex;
+   background:#ffffff;
+   border-right:none;
+    -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+    }
+#search_bar:hover, #search_bar:active {
+    text-color:black;
+    background-color: #5b6fe0;
+    right: 0px;
+}
+  
+#search_bar_hidden{
+    z-index:9999999;
+    bottom:42px;
+	left: -25px;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+}
+
 a:link{
-color:#ffb931;
+color:#ffffff;
 text-decoration: none;
 }
 
 #side{
 	box-shadow: inset 0px 0px 10px rgba(0,0,0,1);
-	border-width:4px;border-color:#ffb931;border-style:inset
 }
 .slide {
     background-attachment: fixed;
     width:100%;
-   min-height:100%;
-   height:auto;
+   	min-height:100%;
+   	height:auto;
     position: relative;
     box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);
 }
+td:hover, td:active {
+    background-color: #5b6fe0;
 
 }
+
+td:link, td:visited {
+    background-color: #f44336;
+    color: white;
+    text-align: center;	
+    text-decoration: none;
+    display: inline-block;
+}
+.auto-style1 {
+	background-attachment: fixed;
+	width: 100%;
+	min-height: 100%;
+	height: auto;
+	position: relative;
+	box-shadow: inset 0px 10px 10px rgba(0,0,0,0.3);
+	margin-bottom: 0;
+}
+
 .wrapper {
     width:960px;
     height:200px;
@@ -49,32 +146,41 @@ text-decoration: none;
     position:absolute;
     bottom:0px;
     left:50%;
-    background-color:#ffb931;
-    background-image:url(../images/button.png);
+    background-image:url(../images/button4.png);
     background-repeat:no-repeat;
 }
 .button:hover{
-    background-color:#494949;
+    background-color: #5b6fe0;
     cursor:pointer;
+}
+.main_body{
+	width:80%;
+	height:100%;
+	float: right;
+	background-color:#000000;
+	text-align:center;
 }
 /******************************
  SLIDE 1 
 *******************************/
 #slide1{
-    background-color:#3d4a96;
-    
-     
+    background-image:url('../images/Technology.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+   background-repeat:no-repeat;
 }
 /******************************
  SLIDE 2 
 *******************************/
 #slide2{
-    background-image:url('../images/logo.jpg');
-     -webkit-background-size: cover;
+    background-image:url('../images/Technology 2.png');
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    text-shadow:1px 1px 2px #ffffff;    
+    background-repeat:no-repeat;
 }
 #slide2 img:first-child{
     position:absolute;
@@ -120,7 +226,13 @@ left: -150px;
  SLIDE 3 
 *******************************/
 #slide3{
-    background-color:#3d4a96;
+    background-image:url('../images/Technology 3.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat:no-repeat;
+
      
 }
 #slide3 img:first-child{
@@ -167,7 +279,13 @@ left: -150px;
  SLIDE 4 
 *******************************/
 #slide4{
-    background-color:#3d4a96;
+    background-image:url('../images/Technology 4.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat:no-repeat;
+
      
 }
 #slide4 img:first-child{
@@ -215,8 +333,12 @@ left: -150px;
 *******************************/
  
 #slide5{
-    background-color:#3d4a96;
-     
+    background-image:url('../images/Technology 5.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat:no-repeat;     
 }
 #slide5 img:first-child{
     position:absolute;
@@ -257,4 +379,19 @@ left: -150px;
     position:absolute;
     top:100px;
     right:300px;
+}
+@media screen and (max-width:900px){
+	
+	.nav_words{
+		visibility:collapse;
+	}
+	.main_body{
+		width:95%;
+	}
+	.follow_us{
+    text-align:left;
+	font-size:small;
+	display:block;
+}
+
 }

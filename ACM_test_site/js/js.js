@@ -75,3 +75,27 @@
  
  
 });
+function bgChange(bg) {
+	if((parseInt(bg)%2)!==0){
+	 nbg=(parseInt(bg)+1);
+     document.getElementById(bg).style.background = "#5b6fe0";
+     document.getElementById(nbg).style.background = "#5b6fe0";
+     }else{
+     nbg=(parseInt(bg)-1);
+     document.getElementById(bg).style.background = "#5b6fe0";
+     document.getElementById(nbg).style.background = "#5b6fe0";
+     }
+}
+function bgChange2(bg) {
+     if((parseInt(bg)%2)!==0){
+	 nbg=(parseInt(bg)+1);
+     document.getElementById(nbg).style.background = "#3d4a96";
+     document.getElementById(bg).style.background = "#3d4a96";
+     }else{
+     nbg=(parseInt(bg)-1);
+     document.getElementById(nbg).style.background = "#3d4a96";
+     document.getElementById(bg).style.background = "#3d4a96";
+     }
+}
+
+
